@@ -342,13 +342,13 @@ function resetGraph()
     
     var topology=$("#topology").val();
     if(topology=="file"){
-        G=C.loadGraphFromUrl("/graphs/poets.xml");
+        G=C.loadGraphFromUrl("graphs/poets.xml");
         useVoronoi=true;
     }else if(topology=="file2"){
-        G=C.loadGraphFromUrl("/graphs/poets2.xml");
+        G=C.loadGraphFromUrl("graphs/poets2.xml");
         useVoronoi=true;
     }else if(topology=="file4"){
-        G=C.loadGraphFromUrl("/graphs/poets4.xml");
+        G=C.loadGraphFromUrl("graphs/poets4.xml");
         useVoronoi=true;
     }else{
         G=0;
